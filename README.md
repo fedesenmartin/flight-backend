@@ -1,32 +1,35 @@
 # strapi-docker-starter
 
-# Backend
-
 A Strapi 4 template project using PostgreSQL with Docker and Docker Compose support
 
 This repository is associated with a blog post, for more details please head to the post from [here](https://short.razinj.com/n1rf4f).
 
-## Development deployment
+##  Development deployment
+1. cd Backend dir
 
-1. Install `npm` dependencies (run command in `app` directory)
+    ```bash
+    cd Backend
+    ```
+    
+2. Install `npm` dependencies (run command in `app` directory)
 
     ```bash
     npm i
     ```
 
-2. Launch development database
+3. Launch development database
 
     ```bash
     docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d db
     ```
 
-3. Run Strapi in development mode
+4. Run Strapi in development mode
 
     ```bash
     npm run develop
     ```
 
-4. Shutdown development database (optional)
+5. Shutdown development database (optional)
 
     ```bash
     docker-compose -f docker-compose.yml -f docker-compose.dev.yml down
