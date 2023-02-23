@@ -1,5 +1,7 @@
 # strapi-docker-starter
 
+# Backend
+
 A Strapi 4 template project using PostgreSQL with Docker and Docker Compose support
 
 This repository is associated with a blog post, for more details please head to the post from [here](https://short.razinj.com/n1rf4f).
